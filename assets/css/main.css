@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	background: linear-gradient(#3062C2, #3062C1);
+}
+/*Primera sección: navegador*/
+header{
+	width: 100%;
+	height: 40px;
+	background-color: #2953A5;
+	position: relative;
+}
+img{
+	position: absolute;
+    left: 603px;
+    top: 5px;
+}
+
+/*Segunda sección: Cuerpo*/
+.menu{
+	width: 100%;
+	height: 45px;
+	background-color: #3062C2;
+	border-bottom: 2px solid #3E76D0;
+}
+.old-class{
+	background-color: #2A56AA;
+    width: 17em;
+    height: 2.5em;
+    border-radius: 0.3em;
+    margin-left: 0.6em;
+    cursor: pointer;
+}
+span{
+	color: #FFF;
+    padding-left: 8px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.old-class:hover{
+	background-color: #2953A5;
+}
+.form-class{
+	background-color: #E1E3E6;
+    width: 17em;
+    height: 5.3em;
+    border-radius: 0.3em;
+    margin-left: 0.6em;
+    position: relative;
+}
+#bottomMenu{
+	display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+input{
+	width: 25.1em;
+    height: 3.3em;
+    background-color: #D6D7DA;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border: 1px solid #A9A9A9;
+    border-radius: 4px;
+}
+button{
+	width: 8em;
+    height: 3em;
+    background-color: #40BD47;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    margin-left: 5px;
+    display: inline-block;
+    color: #FFF;
+    cursor: pointer;
+}
+.fa-times{
+	color: #9A9A9A;
+    display: inline-block;
+    position: absolute;
+    font-size: 30px;
+    right: -35px;
+}
