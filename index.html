@@ -7,15 +7,31 @@
 </head>
 <body>
 	<header>
+		<a href="#" id="boards">
+			<span class="trelloIcon"><i class="fa fa-trello" aria-hidden="true"></i></span>
+			<span class="tab">Tableros</span>
+		</a>
+		<a href="#" id="search"><i class="fa fa-search" aria-hidden="true"></i></a>
 		<img src="assets/img/header-logo.png">
+		<a href="#" class="icons"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+		<a href="#" class="icons"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+		<a href="#" class="icons"><i class="fa fa-plus" aria-hidden="true"></i></a>
 	</header>
-	<section class="menu"></section>
+	<section class="menu">
+		<span class="dare">Reto</span>
+		<i class="fa fa-star-o" aria-hidden="true"></i>
+		<span class="left"></span>
+		<span class="private-life">Vida privada</span>
+		<span class="right"></span>
+		<i class="fa fa-lock" aria-hidden="true"></i>
+		<span class="private">Privado</span>
+	</section>
 	<section>
 		<div>
-			<form id="topMenu" class="old-class">
-				<span>Añadir una lista...</span>
-				<div id="bottomMenu"></div>
-			</form>
+			<div id="container">
+				<button class="btn" onclick="trello()">Añadir una lista...</button>
+			</div>
+			<div id="contiene"></div>
 		</div>		
 	</section>
 	<script type="text/javascript" src="assets/js/app.js"></script>
